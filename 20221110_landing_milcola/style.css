@@ -92,13 +92,13 @@ html,
 
         html {
             width: 100%;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito', sans-serif;
             letter-spacing: 0.5px;
         }
 
 
         p {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
         /*FONT*/
         .font-10 {
@@ -201,7 +201,7 @@ html,
 
         .desktop-section {
             position: relative;
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
 
         .desktop-version {
@@ -219,7 +219,7 @@ html,
 
         /*general class*/
         .regular-text {
-            font-size: 16px;
+            font-size: 12px;
             line-height: 20px;
         }
 
@@ -238,91 +238,115 @@ html,
         }
 
         p.regular-text {
-            font-size: 16px;
+            font-size: 12px;
             line-height: 22px;
         }
 
         
         /*hero banner*/
 
-        .joint_health-section {
-            background: #ffffff;
-            position: relative;
-            z-index: 200;
-            font-family: 'Roboto', sans-serif;
-            padding-top: 30px;
-            padding-bottom: 30px;
-        }
-
        
 
-       
+        /*seconf section*/
 
-        /*top section*/
-        .top-section {
-            background: #ffffff;
-            position: relative;
-            z-index: 200;
-            font-family: 'Roboto', sans-serif;
-            padding-top: 30px;
-            padding-bottom: 30px;
+        .second-section_mochi-ness {
+            background: #fff;
+            text-align: center;
+            padding: 40px;
+            color: #9f3c58;
         }
 
-        .top-section_wrapper {
+        .second-section_subtitle{
+            background: #fff;
+            font-size: 32px;
+            font-weight: 700;
+            color: #9f3c58;
+            margin-bottom: 0;
+        }
+
+        .second-section_title {
+            font-weight: 800;
+            color: #9f3c58;
+            font-size: 59px;
+            line-height: 41px;
+            margin-top: 0;
+        }
+
+        p.second-section_text {
+            font-size: 22px;
+        }
+
+        p.second-section_text-table {
+            font-size: 24px;
+        }
+
+        p.second-section_text-table b {
+            font-weight: 700;
+        }
+
+        p.second-section_text b{
+            font-weight: 800;
+        }
+
+        .second-section_par {
+            width: 85%;
+            text-align: left;
+            margin: 40px auto 20px auto;
+        }
+
+        .mochi-ness {
+            padding: 40px 20px;
+        }
+
+        .footnote {
+            font-size: 12px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .footnote ul li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .footnote ul li span {
+            display: inline-block;
+            width: 90%;
+        }
+
+        .mochi-ness_criteria {
+            position: relative;
+        }
+
+        .skin-table {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .skin-table img {
+            width: 100%;
+        }
+
+        .skin-table_box{
+            position: relative;
+            z-index: 20;
             display: flex;
             justify-content: flex-start;
-            align-items: center;
-            flex-direction: row;
         }
 
-        .top-section_wrapper-images {
+        .skin-table_box_wrapper {
             width: 50%;
-            padding: 20px;
-        }
-
-        .top-section_wrapper-text {
-            width: 50%;
-            padding: 20px 10px;
-            color: #696968;
-            font-size: 14px;
-        }
-        
-        
-        .top-section_wrapper-text h3 {
-            font-size: 14px;
-        }
-        .first_section-bg {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            top: 0;
-        }
-        .first_section-title {
-            position: relative;
+            text-align: left;
+            padding: 20px 40px;
+            min-height: 99px;
             display: flex;
-            flex-direction: row;
             align-items: center;
-            margin: auto;
         }
 
-        .joint_health-block.bottom-section {
-            margin-bottom: 20px;
-        }
 
-        .top-section_wrapper-text .blue-text {
-            background: #1f2b74;
-            display: block;
-            padding:10px 10px;
-            color: #fff;
-            margin-bottom: 10px;
-            line-height: 18px;
-        }
-
-        .top-section_wrapper-text p {
-            padding:10px 10px;
-            font-size: 14px;
-            line-height: 18px;
-        }
+        
         
         @media screen and (min-width: 768px) {
             #bbn-col-wrapper {
