@@ -1,0 +1,552 @@
+html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: top;
+        }
+
+        a img {
+            border: none;
+        }
+
+        html {
+            width: 100%;
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 0.5px;
+        }
+
+
+        p {
+            font-family: 'Nunito', sans-serif;
+        }
+        /*FONT*/
+        .font-10 {
+            font-size: 10px;
+        }
+
+        .font-11 {
+            font-size: 11px;
+        }
+
+        .font-12 {
+            font-size: 12px;
+        }
+
+        .font-13 {
+            font-size: 13px;
+        }
+
+        .font-14 {
+            font-size: 14px;
+        }
+
+        .font-15 {
+            font-size: 15px;
+        }
+
+        .font-16 {
+            font-size: 16px;
+        }
+
+        .font-17 {
+            font-size: 17px;
+        }
+
+        .font-18 {
+            font-size: 18px;
+        }
+
+        .font-20 {
+            font-size: 20px;
+        }
+
+        .font-22 {
+            font-size: 22px;
+        }
+
+        .font-24 {
+            font-size: 24px;
+        }
+
+        .font-28 {
+            font-size: 28px;
+        }
+
+        .font-30 {
+            font-size: 30px;
+        }
+
+        .font-36 {
+            font-size: 36px;
+        }
+
+        .font-40 {
+            font-size: 40px;
+        }
+
+        .ivory-white {
+        	background: #f3f3f3;
+        }
+
+        .white {
+            color: #FFFFFF;
+        }
+
+        .green {
+            background: #1c603e;
+        }
+
+        .brown {
+            background:#c9bca9;
+        }
+
+        .bold {
+            font-weight: 700;
+        }
+
+        ul li {
+        	list-style: none;
+        }
+
+        sup {
+            font-size: 8px;
+            height: 20px;
+            vertical-align: top;
+            position: relative;
+            top:  -3px;
+        }
+
+        
+
+        .desktop-section {
+            position: relative;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .desktop-version {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .mobile-version {
+            display: none;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+
+        /*general class*/
+        .regular-text {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        .normal {
+            font-weight: 300!important;
+        }
+
+        h3.regular-text {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        h4.regular-text {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        p.regular-text {
+            font-size: 12px;
+            line-height: 22px;
+        }
+
+        
+        /*hero banner*/
+
+       
+
+        /*seconf section*/
+
+        .second-section_mochi-ness {
+            background: #fff;
+            text-align: center;
+            padding: 40px;
+            color: #9f3c58;
+        }
+
+        .second-section_subtitle{
+            background: #fff;
+            font-size: 32px;
+            font-weight: 700;
+            color: #9f3c58;
+            margin-bottom: 0;
+        }
+
+        .second-section_title {
+            font-weight: 800;
+            color: #9f3c58;
+            font-size: 59px;
+            line-height: 41px;
+            margin-top: 0;
+        }
+
+        p.second-section_text {
+            font-size: 22px;
+        }
+
+        p.second-section_text-table {
+            font-size: 24px;
+        }
+
+        p.second-section_text-table b {
+            font-weight: 700;
+        }
+
+        p.second-section_text b{
+            font-weight: 800;
+        }
+
+        .second-section_par {
+            width: 85%;
+            text-align: left;
+            margin: 40px auto 20px auto;
+        }
+
+        .mochi-ness {
+            padding: 40px 20px;
+        }
+
+        .footnote {
+            font-size: 12px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .footnote ul li {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .footnote ul li span {
+            display: inline-block;
+            width: 90%;
+        }
+
+        .mochi-ness_criteria {
+            position: relative;
+        }
+
+        .skin-table {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .skin-table img {
+            width: 100%;
+        }
+
+        .skin-table_box{
+            position: relative;
+            z-index: 20;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .skin-table_box_wrapper {
+            width: 50%;
+            text-align: left;
+            padding: 20px 40px;
+            min-height: 99px;
+            display: flex;
+            align-items: center;
+        }
+
+
+        
+        
+        @media screen and (min-width: 768px) {
+            #bbn-col-wrapper {
+                width: 100%;
+                max-width: 800px;
+                height: 100%;
+                /*background: rgba(255, 169, 171, 1.00);*/
+                padding: 0;
+                margin: auto;
+                position: relative;
+                display: block;
+            }
+            #bbn-col-wrapper .base-img {
+                width: 100%;
+                position: absolute;
+            }
+            img {
+                width: 100%;
+            }
+            .row-bnn {
+                width: 100%;
+                height: auto;
+                position: relative;
+                float: left;
+            }
+            #bbn-col-mobile {
+                display: none;
+            }
+        }
+
+        /* MOBILE */
+
+        @media screen and (max-width: 768px) {
+            sup {
+                font-size: 0.7em;
+            }
+            .mobile--section {
+        		display: block!important;
+                background: #347a6a;
+            }
+
+            .desktop--section {
+                display: none!important;
+            }
+
+
+            img {
+                width: 100%;
+            }
+            .row-bnn {
+                width: 100%;
+                height: auto;
+                position: relative;
+                float: left;
+            }
+            /*Mobile Font*/
+            .font-10 {
+                font-size: 1.3vw;
+            }
+            .font-11 {
+                font-size: 1.4vw;
+            }
+            .font-12 {
+                font-size: 1.5vw;
+            }
+            .font-14 {
+                font-size: 1.8vw;
+            }
+            .font-15 {
+                font-size: 1.9vw;
+            }
+            .font-16 {
+                font-size: 2vw;
+            }
+            .font-17 {
+                font-size: 2.2vw;
+            }
+            .font-18 {
+                font-size: 2.3vw;
+            }
+            .font-20 {
+                font-size: 2.6vw;
+            }
+            .font-24 {
+                font-size: 3.1vw;
+            }
+            .font-26 {
+                font-size: 3.3vw;
+            }
+            .font-28 {
+                font-size: 3.6vw;
+            }
+            .font-30 {
+                font-size: 3.9vw;
+            }
+            .font-32 {
+                font-size: 4.1vw;
+            }
+            .font-34 {
+                font-size: 4.4vw;
+            }
+            .font-36 {
+                font-size: 4.6vw;
+            }
+            .font-40 {
+                font-size: 5.2vw;
+            }
+
+        }
+
+
+        @media screen and (max-width: 620px) {
+
+            /*Mobile Font*/
+            .font-10 {
+                font-size: 1.3vw;
+            }
+            .font-11 {
+                font-size: 1.4vw;
+            }
+            .font-12 {
+                font-size: 1.5vw;
+            }
+            .font-14 {
+                font-size: 1.8vw;
+            }
+            .font-15 {
+                font-size: 1.9vw;
+            }
+            .font-16 {
+                font-size: 2vw;
+            }
+            .font-17 {
+                font-size: 2.2vw;
+            }
+            .font-18 {
+                font-size: 2.3vw;
+            }
+            .font-20 {
+                font-size: 18px;
+            }
+            .font-24 {
+                font-size: 3.1vw;
+            }
+            .font-26 {
+                font-size: 3.3vw;
+            }
+            .font-28 {
+                font-size: 28px;
+            }
+            .font-30 {
+                font-size: 3.9vw;
+            }
+            .font-32 {
+                font-size: 4.1vw;
+            }
+            .font-34 {
+                font-size: 4.4vw;
+            }
+            .font-36 {
+                font-size: 4.6vw;
+            }
+            .font-40 {
+                font-size: 5.2vw;
+            }
+
+
+    
+            .desktop-version {
+                display: none;
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .mobile-version {
+                display: block;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            
+
+
+        }
+
+
+        @media only screen and (max-width: 620px) and (min-width: 400px) {
+
+            .mobile-gen {
+                position: relative;
+                margin-top: 45px;
+            }
+
+        }
+
+        @media only screen and (max-width: 400px) and (min-width: 390px) {
+
+            .mobile-gen {
+                position: relative;
+                margin-top: 27px;
+            }
+
+        }
