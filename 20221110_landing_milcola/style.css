@@ -245,6 +245,61 @@ html,
         
         /*hero banner*/
 
+        .hero-banner{
+            position: relative;
+        }
+
+        .home-banner_images{
+            position: absolute;
+        }
+
+        .home-banner_bottom {
+            position: relative;
+            padding-top: 1000px;
+        }
+
+        .badges {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        .first-section_text {
+            height: 370px;
+            color: #9f3c58;
+            width: 100%;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+
+        .first-section_text h1 {
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        p.first-section_normal {
+            font-size: 20px;
+        }
+
+        p.first-section_normal b{
+            font-weight: 700;
+        }
+
+        p.first-section_box {
+            background: #9f3c58;
+            border-radius: 0 0 50px 0;
+            display: inline-block;
+            font-size: 24px;
+            color: #fff;
+            padding: 5px 35px;
+            font-weight: 400;
+            margin: 20px 0;
+        }
+
+        p.first-section_box b {
+            font-weight: 800;
+        }
+
        
 
         /*seconf section*/
@@ -278,6 +333,7 @@ html,
 
         p.second-section_text-table {
             font-size: 24px;
+            line-height: 24px;
         }
 
         p.second-section_text-table b {
@@ -301,7 +357,7 @@ html,
         .footnote {
             font-size: 12px;
             width: 100%;
-            margin: 0 auto;
+            margin: 50px auto;
             text-align: left;
         }
 
